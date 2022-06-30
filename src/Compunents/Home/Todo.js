@@ -8,7 +8,7 @@ const Todo = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/service`
+        const url = `https://nameless-fortress-79199.herokuapp.com/service`
         fetch(url, {
             method: 'GET',
             headers: {

@@ -7,7 +7,7 @@ const Completed_Tasks = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/service`
+        const url = `https://nameless-fortress-79199.herokuapp.com/service`
         fetch(url, {
             method: 'GET',
             headers: {
@@ -23,7 +23,7 @@ const Completed_Tasks = () => {
         const proceed = window.confirm('Are you sure you want to delete?');
         if(proceed){
             console.log('deleting user with id, ', id);
-            const url = `http://localhost:5000/service/${id}`;
+            const url = `https://nameless-fortress-79199.herokuapp.com/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
