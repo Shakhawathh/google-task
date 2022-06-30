@@ -29,15 +29,16 @@ const TextInout = () => {
     return (
         <div>
             <form className='text-left' onSubmit={handleSubmit(onSubmit)}>
+                
 
-                <div className="form-control w-full max-w-xs">
+                <div className="form-control ">
                     <label className="label">
                         <span className="label-text">Daily Task</span>
                     </label>
                     <input
                         type="text"
                         placeholder="Daily task"
-                        className="input input-bordered w-full max-w-xs"
+                        className="input input-bordered w-full  "
                         {...register("text", {
                             
                         })}

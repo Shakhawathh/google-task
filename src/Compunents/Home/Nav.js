@@ -10,8 +10,9 @@ const Nav = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/To-do">To-do</Link></li>
+                        <li><Link to="/Todo">Todo</Link></li>
                         <li><Link to="/Calendar">Calendar</Link></li>
+                        <li><Link to="/Completed Tasks">Completed Tasks</Link></li>
                         <li><Link to="/BLog">Blog</Link></li>
 
                     </ul>
@@ -21,8 +22,9 @@ const Nav = () => {
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0 hover:text-bold-500  space-x-1">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/To-do">To-do</Link></li>
+                    <li><Link to="/Todo">Todo</Link></li>
                     <li><Link to="/Calendar">Calendar</Link></li>
+                    <li><Link to="/Completed_Tasks">Completed Tasks</Link></li>
                     <li><Link to="/BLog">Blog</Link></li>
 
                 </ul>

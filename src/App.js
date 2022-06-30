@@ -3,10 +3,10 @@ import Nav from './Compunents/Home/Nav';
 import { Routes, Route, Link } from "react-router-dom";
 import Home from './Compunents/Home/Home';
 import Todo from './Compunents/Home/Todo';
-import Calendar from './Compunents/Home/Calendar';
-import Completed from './Compunents/Completed';
 import Blog from './Compunents/Blog';
 import Footer from './Compunents/Footer';
+import Completed_Tasks from './Compunents/Completed_Tasks';
+import Calendar from './Compunents/Home/Calendar';
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
      <Nav></Nav>
      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<Todo />} />
-        <Route path="Calender" element={< Calendar />} />
-        <Route path="Completed " element={< Completed />} />
+        <Route path="Todo" element={<Todo />} />
+        <Route path="Calendar" element={< Calendar/>} />
+        <Route path="Completed_Tasks" element={<  Completed_Tasks/>} />
         <Route path="Blog" element={<Blog />} />
       </Routes>
       <Footer></Footer>
