@@ -5,6 +5,8 @@ import Home from './Compunents/Home/Home';
 import Todo from './Compunents/Home/Todo';
 import Calendar from './Compunents/Home/Calendar';
 import Completed from './Compunents/Completed';
+import Blog from './Compunents/Blog';
+import Footer from './Compunents/Footer';
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Route path="about" element={<Todo />} />
         <Route path="Calender" element={< Calendar />} />
         <Route path="Completed " element={< Completed />} />
+        <Route path="Blog" element={<Blog />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
