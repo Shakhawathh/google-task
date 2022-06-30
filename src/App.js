@@ -7,6 +7,7 @@ import Blog from './Compunents/Blog';
 import Footer from './Compunents/Footer';
 import Completed_Tasks from './Compunents/Completed_Tasks';
 import Calendar from './Compunents/Home/Calendar';
+import NotFound from './Compunents/NotFound';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         <Route path="Calendar" element={< Calendar/>} />
         <Route path="Completed_Tasks" element={<  Completed_Tasks/>} />
         <Route path="Blog" element={<Blog />} />
+        <Route path='*' element={<NotFound />} />
+
       </Routes>
       <Footer></Footer>
     </div>
